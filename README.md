@@ -1,6 +1,24 @@
-# Google Calendar Integration for ADK Voice Assistant
+Overview
+The ADK Hackathon project is a multi-agent system built using the Azure Developer Kit (ADK) to demonstrate modular, task-oriented AI agents working collaboratively. Designed for rapid prototyping and experimentation, this project enables seamless orchestration of specialized agents to handle diverse tasks such as user interaction, document parsing, and content summarization.
 
-This document explains how to set up and use the Google Calendar integration with your ADK Voice Assistant.
+At its core, the system is driven by a central orchestrator agent—Jarvis—which delegates tasks to sub-agents based on user input or workflow requirements. This architecture allows for scalable, extensible, and maintainable AI-driven applications.
+
+
+🤖 Agent Details
+Feature	Description
+Interaction Type	Conversational and programmatic (via API or CLI)
+Complexity	Moderate
+Agent Type	Multi-Agent System
+Components	Jarvis, Greeting Agent, PDF-to-JSON Agent, Text Summarization Agent
+Vertical	Productivity, Developer Tools, Document Intelligence
+
+🏗️ Agent Architecture
+
+Jarvis: The central orchestrator that interprets user intent and routes tasks to the appropriate sub-agent.
+Greeting Agent: Handles onboarding, welcome messages, and basic conversational flow.
+PDF-to-JSON Agent: Parses PDF documents and converts them into structured JSON for downstream processing.
+Text Summarization Agent: Condenses long-form content into concise summaries using NLP techniques.
+
 
 ## Setup Instructions
 
