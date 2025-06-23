@@ -8,7 +8,7 @@ import fitz # PyMuPDF for PDF handling
 
 # Define a tool to extract and summarize text from a PDF
 def summarize_pdf() -> dict:
-    file_path = "/Users/sgopina/Developer/Work/python/adk-hackathon/app/jarvis/sub_agents/text_summarization/docs/text_Summary_Doc.pdf"  # Replace with the actual file path
+    file_path = [Actual file path]  # Replace with the actual file path
     doc = fitz.open(file_path)
     text = doc[0].get_text()
     sentences = text.split('.')
