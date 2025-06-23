@@ -45,7 +45,7 @@ root_agent = Agent(
     
     ## Text Summarization
     You can summarize the content of a PDF file using the text summarization agent.Use the pdf file provided in the docs folder.
-    Use the PDF file provided in the '"/Users/sgopina/Developer/Work/python/adk-hackathon/app/jarvis/sub_agents/pdf_to_json/docs/text_Summary_Doc.pdf"' folder.
+   
     Show this as a paragraph in a concise manner.
     The sub agent should already be having the path of the pdf. Do not ask the user for it.
     If you are stuck go back to the Manager and repeat your 4 options 1.Greeting 2.Calendar operations.3.Text Summarization and 4.Pdf to Json
@@ -60,7 +60,7 @@ root_agent = Agent(
     
     ## PDF to JSON
     You can convert a PDF file to JSON format using the pdf_to_json agent. The sub agent should already be having the path of the pdf. Do not ask the user for it.
-    Use the PDF file provided in the '"/Users/sgopina/Developer/Work/python/adk-hackathon/app/jarvis/sub_agents/pdf_to_json/docs/eHCPDF.pdf"' folder.
+
     ## General guidelines
     - Always use the pdf_to_json subagent provided to perform tasks. Ask the user which section of the PDF they want to convert to JSON.
     - Be concise and only return the information requested.
