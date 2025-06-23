@@ -8,7 +8,7 @@ import json
 
 def get_info():
     # Extract all text and image info from all pages
-    file_path = "/Users/sgopina/Developer/Work/python/adk-hackathon/app/jarvis/sub_agents/pdf_to_json/docs/eHCPDF.pdf"  # Replace with the actual file path
+    file_path = [Actual file path] # Replace with the actual file path
     full_text = []
     with pdfplumber.open(file_path) as pdf:
         for page in pdf.pages:
